@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: none;
+}
+
+.desktop {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: red;
+}
+
+@media (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .logo1 {
+    margin-top: 50px;
+  }
+  .logo1 img {
+  }
+
+  .logo2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .logo2 img {
+    max-width: 100%;
+    width: 100px;
+  }
+
+  .effect {
+    height: 10px;
+    width: 100%;
+    background: radial-gradient(#d98e31, #ce6933);
+    transform: rotate(5deg);
+  }
+
+  .effect2 {
+    transform: rotate(-10deg);
+  }
+
+  .main-text {
+    margin-top: 50px;
+    text-align: center;
+    color: #40494f;
+    font-weight: bold;
+    line-height: 1.25;
+    padding: 0px 10px;
+    font-size: 0.9rem;
+    margin-bottom: 70px;
+  }
+
+  .localidades {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    color: #40494f;
+    font-weight: 700;
+    border: 3px solid #dc9141;
+    padding: 40px 20px;
+  }
+
+  .localidades-effect {
+    height: 1px;
+    background: #c4ab73;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .localidades-texto {
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding: 0px 20px;
+    color: #40494f;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .ofertas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    z-index: 20;
+  }
+
+  .ofertas-produto img {
+    max-width: 100%;
+    width: 200px;
+  }
+
+  .ofertas-right img,
+  .ofertas-left img {
+    width: 30px;
+  }
+
+  .effect-bottom {
+    margin-bottom: -80px;
+    z-index: 1;
+  }
+
+  .ofertas-desc {
+    display: grid;
+    gap: 0 10px;
+    grid-template-columns: 2fr 1fr;
+    padding: 0px 60px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 12px;
+    align-items: end;
+    justify-content: end;
+  }
+
+  .prod-weight {
+    font-size: 12px;
+    justify-self: end;
+  }
+
+  .line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    grid-column: span 2;
+    margin-top: 10px;
+  }
+
+  .preco-parcela {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .preco-parcela2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .card {
+    justify-self: end;
+    align-self: end;
+    margin-top: 10px;
+  }
+  .card img {
+    width: 30px;
+    justify-self: end;
+  }
+
+  .vista-desc {
+    align-self: center;
+    justify-self: end;
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .juros {
+    grid-column: span 2;
+  }
+}

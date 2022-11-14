@@ -1,0 +1,18 @@
+[
+  {
+    "img": "./imgs/produ1.png",
+    "description": "PERFUME BROWN CLASSIC",
+    "precoparcelado": "10 x R$39,90",
+    "parceladojuros": "15 x R$39,90",
+    "precovista": "ou R$290 à vista",
+    "weight": "50ml"
+  },
+  {
+    "img": "./imgs/produ2.png",
+    "description": "PERFUME VERMELHO CLASSIC",
+    "precoparcelado": "10 x R$49,90",
+    "parceladojuros": "15 x R$49,90",
+    "precovista": "ou R$400 à vista",
+    "weight": "100ml"
+  }
+]
